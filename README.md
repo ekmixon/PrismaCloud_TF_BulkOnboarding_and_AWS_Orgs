@@ -53,21 +53,21 @@ use cases.
 
 ### Use Case 2: On-boarding AWS Orgs
 
-1.  Prepare the AWS accounts by creating the Prisma cloud role in AWS
-    Master and all the member accounts. With the recent announcement of
+1.  Prepare the AWS accounts by creating the Prisma cloud role in your AWS
+    Master account and all the member accounts. With the recent announcement of
     AWS Cloudformation
     [stacksets](https://aws.amazon.com/blogs/aws/new-use-aws-cloudformation-stacksets-for-multiple-accounts-in-an-aws-organization/),
     you can now simplify the configuration of cross-accounts IAM
     permissions and allow for automatic creation and deletion of
     resources when AWS accounts are joining or are removed from AWS
     Organization.
-2.  Follow the instructions from AWS Stack Set documentation here to
+2.  Follow the instructions from the AWS Stack Set documentation here to
     [set up roles in the child
     accounts](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/stacksets-prereqs.html)
-    that have permissions to deploy resource with a trust relationship
-    to the role of the parent account (which you\'re deploying from)
+    that have permissions to deploy resources with a trust relationship
+    that maps to the role of the parent account from which you're deploying from.
 3.  Create a StackSet in the Master account and deploy a Cloudformation
-    template into it to selected accounts or Organizational Units (OU).
+    template into selected accounts or Organizational Units (OU).
 4.  Download the CSV file template from: [CSV Template for AWS Account On-boarding - Sheet1.csv](https://github.com/PaloAltoNetworks/PrismaCloud_TF_BulkOnboarding_and_AWS_Orgs/blob/master/CSV%20Template%20for%20AWS%20Account%20On-boarding%20-%20Sheet1.csv)
 5.  Populate the CSV with the required fields (eg. AWS account numbers,
     external ID and Prisma cloud role ARN)
