@@ -1,4 +1,4 @@
-#Terraform Provider for Prisma Cloud
+# Terraform Provider for Prisma Cloud
 
 Prisma Cloud has developed a Terraform provider for Prisma Cloud. You
 can use this provider for the following use cases:
@@ -13,7 +13,7 @@ can use this provider for the following use cases:
 The following sections provide step-by-step instructions for the above
 use cases.
 
-##Pre-requisites:
+## Pre-requisites:
 
 1.  Download the latest version of Prisma Cloud Terraform provider from
     the following GitHub repository.
@@ -51,7 +51,7 @@ use cases.
 
 5.  Run the Terraform Provider.
 
-###Use Case 2: On-boarding AWS Orgs
+### Use Case 2: On-boarding AWS Orgs
 
 1.  Prepare the AWS accounts by creating the Prisma cloud role in AWS
     Master and all the member accounts. With the recent announcement of
@@ -73,7 +73,7 @@ use cases.
     external ID and Prisma cloud role ARN)
 6.  Run the Terraform Provider.
 
-###Use Case 3: Manage users, cloud accounts, account groups,
+### Use Case 3: Manage users, cloud accounts, account groups,
 policies and alert rules
 
 1.  Using the Terraform provider, you can perform CRUD operations on the
