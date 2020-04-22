@@ -73,8 +73,7 @@ use cases.
     external ID and Prisma cloud role ARN)
 6.  Run the Terraform Provider.
 
-### Use Case 3: Manage users, cloud accounts, account groups,
-policies and alert rules
+### Use Case 3: Manage users, cloud accounts, account groups, policies and alert rules
 
 1.  Using the Terraform provider, you can perform CRUD operations on the
     following Prisma objects: Users, Cloud Accounts, Policies, Alert
