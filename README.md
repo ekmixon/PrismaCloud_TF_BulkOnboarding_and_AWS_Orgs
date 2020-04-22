@@ -1,4 +1,4 @@
-# Terraform Provider for Prisma Cloud
+# Terraform Provider for Prisma Cloud - Alpha Version
 
 Prisma Cloud has developed a Terraform provider for Prisma Cloud. You
 can use this provider for the following use cases:
