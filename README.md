@@ -23,9 +23,9 @@ use cases.
     b.  [*https://github.com/PaloAltoNetworks/prisma-cloud-go*](https://github.com/PaloAltoNetworks/prisma-cloud-go)
 
     c.  Note: The documentation on how to build and use the provider is
-        > included in GitHub repo. The documentation will be made
-        > available on Terraform website once it goes through the
-        > certification process.
+        included in GitHub repo. The documentation will be made
+        available on Terraform website once it goes through the
+        certification process.
 
 2.  Please refer to Prisma Cloud API located at
     [*https://api.docs.prismacloud.io/reference*](https://api.docs.prismacloud.io/reference)
