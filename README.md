@@ -44,7 +44,7 @@ use cases.
     b.  Using Cloud Formation -
         > [*https://docs.paloaltonetworks.com/prisma/prisma-cloud/prisma-cloud-admin/connect-your-cloud-platform-to-prisma-cloud/onboard-your-aws-account/set-up-your-prisma-cloud-role-for-aws-manual.html\#ide7b46e67-8e1f-400f-b763-48bbe41bbe2c*](https://docs.paloaltonetworks.com/prisma/prisma-cloud/prisma-cloud-admin/connect-your-cloud-platform-to-prisma-cloud/onboard-your-aws-account/set-up-your-prisma-cloud-role-for-aws-manual.html#ide7b46e67-8e1f-400f-b763-48bbe41bbe2c)
 
-3.  Download the CSV file template from: [CSV Template for AWS Account On-boarding - Sheet1.csv](../blob/master/CSV%20Template%20for%20AWS%20Account%20On-boarding%20-%20Sheet1.csv)
+3.  Download the CSV file template from: [CSV Template for AWS Account On-boarding - Sheet1.csv](https://github.com/PaloAltoNetworks/PrismaCloud_TF_BulkOnboarding_and_AWS_Orgs/blob/master/CSV%20Template%20for%20AWS%20Account%20On-boarding%20-%20Sheet1.csv)
 
 4.  Populate the CSV with the required fields (eg. AWS account numbers,
     external ID and Prisma cloud role ARN)
