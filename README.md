@@ -49,7 +49,7 @@ use cases.
 4.  Populate the CSV with the required fields (eg. AWS account numbers,
     external ID and Prisma cloud role ARN)
 
-5.  Run the Terraform Provider.
+5.  Invoke the Terraform Provider in your terraform scripts.
 
 ### Use Case 2: On-boarding AWS Orgs
 
@@ -68,10 +68,10 @@ use cases.
     to the role of the parent account (which you\'re deploying from)
 3.  Create a StackSet in the Master account and deploy a Cloudformation
     template into it to selected accounts or Organizational Units (OU).
-4.  Download the CSV file template from xxxx
+4.  Download the CSV file template from: [CSV Template for AWS Account On-boarding - Sheet1.csv](https://github.com/PaloAltoNetworks/PrismaCloud_TF_BulkOnboarding_and_AWS_Orgs/blob/master/CSV%20Template%20for%20AWS%20Account%20On-boarding%20-%20Sheet1.csv)
 5.  Populate the CSV with the required fields (eg. AWS account numbers,
     external ID and Prisma cloud role ARN)
-6.  Run the Terraform Provider.
+6.  Invoke the Terraform Provider in your terraform scripts.
 
 ### Use Case 3: Manage users, cloud accounts, account groups, policies and alert rules
 
