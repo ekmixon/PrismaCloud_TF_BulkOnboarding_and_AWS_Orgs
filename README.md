@@ -25,7 +25,7 @@ use cases.
     c.  Note: The documentation on how to build and use the provider is
         included in GitHub repo. The documentation will be made
         available on Terraform website once it goes through the
-        certification process.
+        certification process.  A good start: [*https://github.com/PaloAltoNetworks/terraform-provider-prismacloud/blob/master/website/docs/r/cloud_account.html.markdown*](https://github.com/PaloAltoNetworks/terraform-provider-prismacloud/blob/master/website/docs/r/cloud_account.html.markdown)
 
 2.  Please refer to Prisma Cloud API located at
     [*https://api.docs.prismacloud.io/reference*](https://api.docs.prismacloud.io/reference)
@@ -51,6 +51,8 @@ use cases.
 
 5.  Invoke the Terraform Provider in your terraform scripts.
 
+6.  If you add a new AWS account, please update the CSV file and re-run Terraform.
+
 ### Use Case 2: On-boarding AWS Orgs
 
 1.  Prepare the AWS accounts by creating the Prisma cloud role in your AWS
@@ -72,6 +74,7 @@ use cases.
 5.  Populate the CSV with the required fields (eg. AWS account numbers,
     external ID and Prisma cloud role ARN)
 6.  Invoke the Terraform Provider in your terraform scripts.
+7.  Whenever new AWS account is added/deleted, please update the CSV file and re-trigger the terraform script
 
 ### Use Case 3: Manage users, cloud accounts, account groups, policies and alert rules
 
