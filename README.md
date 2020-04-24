@@ -20,9 +20,7 @@ use cases.
 
     a.  [*https://github.com/PaloAltoNetworks/terraform-provider-prismacloud*](https://github.com/PaloAltoNetworks/terraform-provider-prismacloud)
 
-    b.  [*https://github.com/PaloAltoNetworks/prisma-cloud-go*](https://github.com/PaloAltoNetworks/prisma-cloud-go)
-
-    c.  Note: The documentation on how to build and use the provider is
+    b.  Note: The documentation on how to build and use the provider is
         included in GitHub repo. The documentation will be made
         available on Terraform website once it goes through the
         certification process.  A good start: [*https://github.com/PaloAltoNetworks/terraform-provider-prismacloud/blob/master/website/docs/r/cloud_account.html.markdown*](https://github.com/PaloAltoNetworks/terraform-provider-prismacloud/blob/master/website/docs/r/cloud_account.html.markdown)
