@@ -71,6 +71,8 @@ use cases.
 4.  Download the CSV file template from: [CSV Template for AWS Account On-boarding - Sheet1.csv](https://github.com/PaloAltoNetworks/PrismaCloud_TF_BulkOnboarding_and_AWS_Orgs/blob/master/CSV%20Template%20for%20AWS%20Account%20On-boarding%20-%20Sheet1.csv)
 5.  Populate the CSV with the required fields (eg. AWS account numbers,
     external ID and Prisma cloud role ARN)
+    * To get the list of account ids (as admin level user in AWS): aws organizations list-accounts | grep Id | sed 's/^.\{19\}\(.\{12\}\).*/\1/' > awsids.txt
+    
 6.  Invoke the Terraform Provider in your terraform scripts.
 7.  Whenever new AWS account is added/deleted, please update the CSV file and re-trigger the terraform script
 
