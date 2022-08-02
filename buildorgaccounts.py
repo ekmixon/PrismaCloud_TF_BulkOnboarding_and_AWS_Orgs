@@ -12,7 +12,7 @@ def print_to_csv(id_file, config_file, print_file_name):
 
             file_content_1 = file_1.read()
 
-            print("read file content from " + id_file)
+            print(f"read file content from {id_file}")
 
         if not file_content_1:
 
@@ -24,7 +24,7 @@ def print_to_csv(id_file, config_file, print_file_name):
 
             file_content_2 = file_2.read()
 
-            print("read file content from " + config_file)
+            print(f"read file content from {config_file}")
 
         if not file_content_2:
 
@@ -68,9 +68,12 @@ def print_to_csv(id_file, config_file, print_file_name):
 
                     id_list[x] = ''.join([i for i in id_list[x] if i.isdigit()])
 
-                    col_e = "arn:aws:iam::" + id_list[x] + ":role/PrismaCloudReadOnlyRoleNEW"
+                    col_e = f"arn:aws:iam::{id_list[x]}:role/PrismaCloudReadOnlyRoleNEW"
 
-                    acct_file.append(id_list[x] + "," + config_list[0] + "," + config_list[1] + "," + id_list[x] + "," + col_e)
+                    acct_file.append(
+                        f"{id_list[x]},{config_list[0]},{config_list[1]},{id_list[x]},{col_e}"
+                    )
+
 
 
 
@@ -80,7 +83,7 @@ def print_to_csv(id_file, config_file, print_file_name):
 
             csv_file.close()
 
-            print("wrote file content to " + print_file_name)
+            print(f"wrote file content to {print_file_name}")
 
     except IOError as e:
 
